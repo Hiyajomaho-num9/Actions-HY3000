@@ -15,7 +15,4 @@
 #git clone https://github.com/messense/aliyundrive-webdav package/messense
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 git clone https://github.com/animegasan/luci-app-wolplus.git package/luci-app-wolplus
-echo 'src-git helloworld https://github.com/kenzok8/small' >>feeds.conf.default
-echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >> feeds.conf.default
-echo 'src-git passwall2 https://github.com/Openwrt-Passwall/openwrt-passwall2' >>feeds.conf.default
-echo 'src-git passwall_packages https://github.com/Openwrt-Passwall/openwrt-passwall-packages' >>feeds.conf.default
+
