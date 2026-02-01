@@ -17,3 +17,10 @@ chmod +x /tmp/clash >/dev/null 2>&1
 mkdir -p feeds/luci/applications/luci-app-openclash/root/etc/openclash/core
 mv /tmp/clash feeds/luci/applications/luci-app-openclash/root/etc/openclash/core/clash >/dev/null 2>&1
 rm -rf /tmp/clash.tar.gz >/dev/null 2>&1
+
+##-----------------Remove Some Package --------------------
+rm -rf package/feeds/helloworld/luci-app-homeproxy
+rm -rf package/feeds/helloworld/luci-app-nikki
+rm -rf package/feeds/helloworld/luci-app-fchomo
+rm -rf package/feeds/helloworld/momo
+rm -rf package/feeds/helloworld/nikki
